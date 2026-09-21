@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.example.digitallevel.BubbleLevelView
+        android:id="@+id/bubbleView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F0F0F0" />
+
+    <TextView
+        android:id="@+id/tvAngles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll: 0.0°   Pitch: 0.0°"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
